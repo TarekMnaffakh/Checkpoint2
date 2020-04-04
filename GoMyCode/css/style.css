@@ -1,0 +1,203 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+
+input[type=date] {
+    width: 52%;
+    padding: 12px 15px;
+    margin: 8px 18px;
+    box-sizing: border-box;
+    border-radius:15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}  
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 15px;
+    margin: 8px 18px;
+    border-radius:15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}  
+
+input[type=submit] {
+    width: 20%;
+    color: white;
+    padding: 15px 5px;
+    margin: 18px 18px;
+    border-radius:15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: #4CAF50;
+    cursor: pointer;
+    float: right;
+} 
+
+label {
+    width: 50%;
+    color: white;
+    padding: 12px 15px;
+    margin: 8px 18px;
+    border-radius:15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #4CAF50;
+}  
+
+#bar_nav{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+#body{
+    background-color: rgb(223, 233, 230);
+
+}
+
+
+.Paragraph1{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;color: black;text-align: justify;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px red;
+}
+
+
+.Paragraph2{
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif; color: rgb(117, 118, 119);text-align: justify;
+    text-align: center;
+    font-size: xx-large;
+   
+
+}
+p.Paragraph2 {
+    writing-mode: horizontal-tb; 
+  }
+
+#footer{
+    background-color: #333; size: 200%; color: ivory;font-family: Verdana, Geneva, Tahoma, sans-serif;text-align: center;
+}
+t#able, #th, #td{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: xx-large;color: royalblue;border: 10px solid black;text-align: center;
+
+}
+.test{
+
+    width: 10px;
+    height: 10px;
+    border: 1px solid red;
+    display: inline-block;
+    background-color:rebeccapurple;
+    text-align: center;
+
+}
+   /*Mise en forme nav bar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    border-left: 6px solid rgb(230, 22, 22);
+  }
+  
+  
+  
+  li a {
+    
+    display: block;
+    justify-content: space-around;
+
+    color: white;
+    text-align: center;
+    padding: 14px 50px;
+    border-radius: 25px;
+
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(202, 38, 38);
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+/* Flexbox About */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(223, 233, 230)
+   
+  }
+  
+  .flex-container > div {
+    background-color:rgb(223, 233, 230);
+    width: auto;
+    margin: 35px;
+    text-align: center;
+    line-height: auto;
+    font-size: 65px;
+    color: dimgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+/* Grid_Page Home: */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 10px;
+    background-color: rgb(223, 233, 230);
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    text-align: center;
+    background-color: black;
+    padding: 20px 0;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+  }
+  
+  .item8 {
+    grid-area: 1 / 1 / 5 / 5;
+  }
+  .item2, .item4, .item6, .item9 {
+    color: rgb(245, 17, 17);
+    text-align: center;
+   
+}
+.item1, .item3, .item5, .item7 {
+    color: white;
+    text-align: center;
+}
+/* Extra small devices */
+@media (max-width: 576px) { /* ... */ } 
+/* Small devices (landscape phones, 576px and up)  */
+   @media (min-width: 576px) and (max-width: 768px) { /* ... */ } 
+/* Medium devices (tablets, 768px and up)  */
+   @media (min-width: 768px) and (max-width: 992px)  { /* ... */ } 
+/* Large devices (desktops, 992px and up)  */
+   @media (min-width: 992px) and (max-width: 1200px)  { /* ... */ } 
+/* Extra large devices (large desktops, 1200px and up)  */
+   @media (min-width: 1200px) { /* ... */ } 
+
